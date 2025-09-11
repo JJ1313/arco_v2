@@ -1,0 +1,23 @@
+.button__container{
+  background-color: var(--clr-black);
+  color: var(--clr-white);
+  font-weight: 600;
+  font-size: 1.25rem;
+  height: 3.3rem;
+  padding-inline: 2.85rem;
+  border-radius: 10px;
+  margin-inline: auto;
+  display: block;
+  cursor: pointer;
+  transition: all ease-in  300ms;
+  &:hover{
+    background-color: var(--clr-neutral-800);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  .button__container{
+    background-color: var(--clr-white);
+    color: var(--clr-black);
+  }
+}
