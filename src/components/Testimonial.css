@@ -1,16 +1,21 @@
-.testimonial__container{
+.testimonial__container {
   margin-top: 14.8rem;
 }
+
 .testimonial__title {
   text-align: center;
+  font-size: 2.38rem;
+  font-weight: 800;
 }
 
 .testimonial__subheading {
   text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--clr-neutral-300);
 }
 
 .testimonial__content {
-  outline: 1px solid red;
   display: flex;
   justify-content: center;
   gap: 20px;

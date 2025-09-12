@@ -10,17 +10,17 @@ const Testimonial = () => {
       <TestimonialCard 
         name="Pedro"
         text='"Algunos ejemplos de proyectos residenciales, comerciales y turísticos realizados por ARCO estudio."'
-        category="comercio"
-      />
-      <TestimonialCard 
-        name="Juan"
-        text='"Algunos ejemplos de proyectos residenciales, comerciales y turísticos realizados por ARCO estudio."'
         category="Residencial"
       />
       <TestimonialCard 
         name="Juan Maestro"
         text='"Algunos ejemplos de proyectos residenciales, comerciales y turísticos realizados por ARCO estudio."'
         category="Comercio"
+      />
+      <TestimonialCard 
+        name="Diego"
+        text='"Algunos ejemplos de proyectos residenciales, comerciales y turísticos realizados por ARCO estudio."'
+        category="Residencial"
       />
     </div>
   </div>
