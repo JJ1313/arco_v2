@@ -1,7 +1,7 @@
 import './PortfolioItem.css'
 
 const PortfolioItem = ({ title, year, imgUrl }) => {
-  return <div class="portfolioItem__container">
+  return <div className="portfolioItem__container">
     <div className="portfolioItem__imageContainer">
       <img className="portfolioItem__image" src={imgUrl} />
     </div>
