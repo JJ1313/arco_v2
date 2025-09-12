@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import MainImage from './components/MainImage'
 import CharacteristicItem from './components/CharacteristicItem'
 import Portfolio from './components/Portfolio'
+import Testimonial from './components/Testimonial'
 
 const App = () => {
   return (
@@ -27,6 +28,7 @@ const App = () => {
         text={"Optimizamos recursos, mantenemos transparencia y llevamos tu obra a cabo garantizando confianza y excelencia."}
       />
       <Portfolio/>
+      <Testimonial/>
     </div>
   )
 }

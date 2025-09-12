@@ -11,21 +11,23 @@
   -moz-osx-font-smoothing: grayscale;
 
   --clr-black: #191919;
+  --clr-neutral-50: #F4F4F4;
   --clr-neutral-300: #AAAAAA;
   --clr-neutral-500: #7F7F7F;
   --clr-neutral-800: #404040;
-  --clr-white: #F4F4F4;
+  --clr-white: #FFFFFF;
   --clr-beige: #E9E4D0;
   --clr-primary: #EE5C30;
 
   color: var(--clr-black);
-  background-color: var(--clr-beige);
+  background-color: var(--clr-white);
 }
 
 *{
   margin:0;
   padding: 0;
   border: none;
+  box-sizing: border-box;
 }
 
 body{
