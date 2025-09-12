@@ -8,7 +8,7 @@
 
 .portfolio__description {
   max-width: 24.25rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 600;
   color: var(--clr-neutral-300);
   margin-top: 0.5rem;
@@ -21,4 +21,9 @@
   column-gap: 30px;
   row-gap: 50px;
   margin-top: 7rem;
+}
+@media (max-width: 1190px){
+  .portfolio__content{
+    grid-template-columns: 1fr;
+  }
 }

@@ -1,5 +1,7 @@
 .portfolioItem__container {
   transition: scale ease-in-out 200ms;
+  max-width: 547px;
+  margin-inline: auto;
 
   &:hover {
     scale: 1.01;
