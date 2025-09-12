@@ -1,0 +1,19 @@
+.testimonial__container{
+  margin-top: 14.8rem;
+}
+.testimonial__title {
+  text-align: center;
+}
+
+.testimonial__subheading {
+  text-align: center;
+}
+
+.testimonial__content {
+  outline: 1px solid red;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-top: 4.3rem;
+}

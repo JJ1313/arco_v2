@@ -4,7 +4,7 @@
   font-weight: 600;
   font-size: 1.2rem;
   height: 3.3rem;
-  padding-inline: 2.3rem;
+  padding-inline: 2rem;
   border-radius: 10px;
   margin-inline: auto;
   display: block;
@@ -12,6 +12,7 @@
   transition: all ease-in  300ms;
   &:hover{
     background-color: var(--clr-neutral-800);
+    color: var(--clr-neutral-50);
   }
 }
 

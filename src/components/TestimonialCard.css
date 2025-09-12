@@ -1,0 +1,14 @@
+.testimonialCard__container {
+  height: 23rem;
+  background-color: var(--clr-neutral-50);
+  max-width: 22.5rem;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 1.5rem;
+  padding-block: 2.2rem;
+}
+.testimonialCard__name{
+  margin-top: auto;
+  outline: 1px solid green;
+}
