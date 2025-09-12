@@ -1,0 +1,24 @@
+.portfolio__container{
+  margin-top: 13rem;
+}
+.portfolio__title {
+  font-size: 1.25rem;
+  font-weight: 800;
+}
+
+.portfolio__description {
+  max-width: 24.25rem;
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--clr-neutral-300);
+  margin-top: 0.5rem;
+  line-height: 1.2;
+}
+
+.portfolio__content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 50px;
+  margin-top: 7rem;
+}

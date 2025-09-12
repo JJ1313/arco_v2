@@ -1,0 +1,32 @@
+.portfolioItem__container {
+  transition: scale ease-in-out 200ms;
+
+  &:hover {
+    scale: 1.01;
+  }
+}
+
+.portfolioItem__imageContainer {
+  width: 100%;
+  height: 576px;
+}
+
+.portfolioItem__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.portfolioItem__title {
+  font-weight: 800;
+  font-size: 1.25rem;
+  margin-top: 0.5rem;
+}
+
+.portfolioItem__year {
+  margin-top: 0.5rem;
+  font-weight: 600;
+  font-size: 1.25rem;
+  color: var(--clr-neutral-500);
+}

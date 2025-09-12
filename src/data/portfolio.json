@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "title": "Casa Los Robles",
+    "description": "Diseño de casa moderna con enfoque en sostenibilidad y espacios abiertos.",
+    "year": 2024,
+    "imgUrl": "https://picsum.photos/id/677/547/576"
+  },
+  {
+    "id": 2,
+    "title": "Casa Los Sauces",
+    "description": "Conceptualización y diseño para una tienda de ropa minimalista en el centro de la ciudad.",
+    "year": 2025,
+    "imgUrl": "https://picsum.photos/id/679/547/576"
+  },
+  {
+    "id": 3,
+    "title": "Casa Los Pinos",
+    "description": "Desarrollo de un complejo de cabañas turísticas con vistas al mar.",
+    "year": 2024,
+    "imgUrl": "https://picsum.photos/id/802/547/576"
+  },
+  {
+    "id": 4,
+    "title": "Casa Lavanda",
+    "description": "Desarrollo de un complejo de cabañas turísticas con vistas al mar.",
+    "year": 2024,
+    "imgUrl": "https://picsum.photos/id/893/547/576"
+  }
+]
