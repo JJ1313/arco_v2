@@ -1,8 +1,8 @@
 .mainImage__container{
-  outline: 1px solid purple;
   max-width: 1160px;
   height: auto;
   max-height: 740px;
+  margin-bottom: 11.5rem;
 }
 .mainImage__image{
   object-fit: cover;

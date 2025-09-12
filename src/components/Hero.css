@@ -1,6 +1,5 @@
 .hero__container{
   max-width: 930px;
-  outline: 1px solid red;
   margin-inline: auto;
   margin-bottom: 4rem;
 }
