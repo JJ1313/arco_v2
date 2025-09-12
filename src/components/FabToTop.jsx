@@ -2,7 +2,7 @@ import './FabToTop.css'
 
 const FabToTop = () => {
   const handleClick = () => {
-    console.log("Scroll to top");
+    console.log("Scroll to top pls");
   }
   return <button onClick={ handleClick}>
     ToTop
