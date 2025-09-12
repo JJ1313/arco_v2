@@ -20,11 +20,14 @@
 .characteristicItem__title{
   color: var(--clr-black);
   font-weight: 900;
+  font-size: 2.38rem;
 }
 .characteristicItem__text{
+  margin-top: 30px;
   color:var(--clr-neutral-300);
   font-size: 1.5rem;
   font-weight: 600;
+  line-height: 1.2;
 }
 .characteristicItem__imageContainer{
   width: 50%;
