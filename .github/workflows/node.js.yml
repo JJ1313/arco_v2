@@ -19,25 +19,9 @@ jobs:
     - run: npm ci
     - run: npm run build
     
-    # Nuevo paso para subir los archivos generados como un artefacto
+    # Aquí está el cambio
     - name: Upload build artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4 # Se actualizó de v3 a v4
       with:
         name: build-folder
         path: dist/ # Asegúrate de que esta sea la ruta correcta de tu carpeta de construcción
-        
-  deploy:
-    needs: build # Este job solo se ejecutará si 'build' es exitoso
-    runs-on: ubuntu-latest
-    steps:
-      - name: Download build artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: build-folder
-      
-      - name: Deploy to release/staging branch
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./ # La carpeta descargada será el directorio raíz
-          publish_branch: release/staging
