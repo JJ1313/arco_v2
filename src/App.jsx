@@ -5,6 +5,7 @@ import MainImage from './components/MainImage'
 import CharacteristicItem from './components/CharacteristicItem'
 import Portfolio from './components/Portfolio'
 import Testimonial from './components/Testimonial'
+import Founders from './components/Founders'
 
 const App = () => {
   return (
@@ -29,8 +30,9 @@ const App = () => {
       />
       <Portfolio/>
       <Testimonial/>
+      <Founders />
     </div>
   )
 }
 
-export default App
+export default App;
