@@ -6,6 +6,7 @@ import CharacteristicItem from './components/CharacteristicItem'
 import Portfolio from './components/Portfolio'
 import Testimonial from './components/Testimonial'
 import Founders from './components/Founders'
+import ContactForm from './components/ContactForm.jsx'
 
 const App = () => {
   return (
@@ -31,6 +32,7 @@ const App = () => {
       <Portfolio/>
       <Testimonial/>
       <Founders />
+      <ContactForm />
     </div>
   )
 }
