@@ -23,6 +23,7 @@
 
   color: var(--clr-black);
   background-color: var(--clr-white);
+  scroll-behavior: smooth;
 }
 
 *{
